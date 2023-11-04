@@ -1,0 +1,152 @@
+baseURL = 'https://miguelangel.de/'
+languageCode = "de"
+defaultContentLanguage = "de"
+title = 'Miguel Angel'
+theme = 'spectral'
+paginate = "5"
+#googleAnalytics = "G-XXXXXXXXXX"
+
+[params]
+fancyTitle = "Miguel Angel" # title for frontpage, may include image
+copyright = "Daniel Smart Rojas"
+description = 'El Mariachi<br />Mexikanische und Lateinamerikikanische <br />in Deutschland.'
+startbuttonText = "Buchen Sie heute"
+startbuttonLink = "#contact"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["banner.JPG"]
+img = "images/banner.jpg" #banner image in background for spectral theme
+
+[[params.menu.main]]
+url = '/'
+title = "Startseite"
+
+#[[params.menu.main]]
+#url = '/posts/'
+#title = "Posts"
+
+[[params.menu.main]]
+url = '/imprint/'
+title = "Impressum und Datenschutz"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Unvergessliche Momente <br />Lassen Sie uns Ihre Veranstaltung in ein emotionales Ereignis verwandeln!'
+body = '''
+Feiern Sie Ihre besonderen Momente mit einer Musik, die nicht nur Töne, sondern auch Emotionen zum Leben erweckt.
+Geburtstage, Hochzeiten, Jubiläen, Firmenveranstaltungen und private Feiern - die lebendigen Klänge und der leidenschaftliche Gesang eines echten Mariachi-Sängers fügen jedem Anlass eine Prise Magie hinzu. 
+Ob Sie eine intime Feier im kleinen Kreis oder eine große Gala-Veranstaltung planen, ich biete Ihnen ein passendes Repertoire, um Ihre Gefühle in Töne zu verwandeln. 
+Die Musik geht tief ins Herz und schafft eine Atmosphäre, die vielen in Erinnerung bleibt.
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-headphones-alt"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "images/Authentic.JPG"
+img_alt = "blurry background: white/grey"
+title = 'Authentische Klänge aus Mexiko <br /> '
+body = '''
+Von den traditionellen Rancheras bis hin zu modernen Interpretationen - dazu der charakteristische Sombrero, die Mariachi-Uniform sowie die leidenschaftlichen Gesangseinlagen - 
+damit verleihe ich Ihrer Veranstaltung eine einzigartige, herzergreifende Note.
+'''
+
+[[params.two.section]]
+img = "images/Spass.JPG"
+title = 'Die Vielfalt Lateinamerikas<br />bringt Vielseitigkeit und Flexibilität für ihre Veranstaltung'
+body = '''
+Ob Bolero, Tango, Cumbia, Salsa oder Chachacha, das breite Specktrum der lateinamerikikanischen Musik hilft mir die Emotionen während ihrer Veranstaltung zu wecken.
+'''
+
+[[params.two.section]]
+img = "images/Publikum.JPG"
+title = 'Professionell und Zuverlässig<br />damit ihre Veranstaltung perfekt wird'
+body = '''
+Ihr Anlass ist mir wichtig. Ich sehe mich nicht nur als Künstler, sondern auch als Ihr Partner bei ihrem Anlass. 
+Professionalität, Pünktlichkeit und eine enge Abstimmung mit Ihnen erachte ich als wichtig um sicherzustellen, dass die Musik perfekt zu Ihrer Veranstaltung und Ihren Gefühlen passt.
+'''
+
+[params.three]
+enable = true
+title = 'Feiern Sie Emotionen, feiern Sie das Leben!'
+body = '''
+'''
+
+[[params.three.feature]]
+icon = "fa-calendar-check"
+title = "Kommunikation und Planung"
+body = "Kontaktieren Sie mich noch heute, um für Ihre nächste Feier zu buchen."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Authentische Musik"
+body = "Erleben Sie die lebendige Kultur und die unverwechselbaren Klänge Mexikos und Lateinamerikas, die nicht nur Ihre Ohren, sondern auch Ihre Herzen erfüllen werden."
+
+[params.cta]
+enable = true
+title = "Meine Öffentlichen Videos"
+body = "Folgen Sie mir auf meinem Youtube Kanal um Einblick in meine Musik und Show zu erhalten. Abonnieren Sie meinen Kanal um über neue Videos informiert zu werden."
+
+#[[params.cta.link]]
+#href = "https://www.youtube.com/@locooj" 
+#text = "Activate"
+#special = true
+
+[[params.cta.link]]
+href = "https://www.youtube.com/@locooj"
+text = "Mein Youtube"
+special = false
+
+[params.contact]
+enable = true
+title = "Kontakt"
+body = "Senden Sie mir ihre Anfrage, ich untersütze Sie gerne bei der Planung des Engagements."
+phone = "+49 177 3415358"
+#address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "smartrojas@googlemail.com"
+subject = "Neue Anfrage für Miguel Angel!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+#twitter = ""
+#mastodon = ""
+#github = ""
+facebook = "profile.php?id=100054374088108"
+youtube = "@locooj"
+#instagram = ""
+#dribble = ""
+
+# language specific options
+
+#[languages.en]
+#weight = 0
+#languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+#[languages.es]
+#weight = 10
+#languageName = "Español"
