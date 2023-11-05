@@ -124,9 +124,9 @@ title = "Kontakt"
 body = "Senden Sie mir ihre Anfrage, ich untersütze Sie gerne bei der Planung des Engagements."
 phone = "+49 177 3415358"
 #address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "smartrojas@googlemail.com"
+email = "smartmiguel@web.de"
 subject = "Neue Anfrage für Miguel Angel!"
-formspree_form_id = "example_invalid"
+formspree_form_id = "xqkvjlrb"
 
 [params.social]
 #twitter = ""
