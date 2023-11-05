@@ -64,7 +64,7 @@ label = "Dolor"
 enable = true
 
 [[params.two.section]]
-img = "images/Authentic.JPG"
+img = "images/authentic.JPG"
 img_alt = "blurry background: white/grey"
 title = 'Authentische Klänge aus Mexiko <br /> '
 body = '''
