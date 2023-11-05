@@ -121,7 +121,7 @@ special = false
 [params.contact]
 enable = true
 title = "Kontakt"
-body = "Senden Sie mir ihre Anfrage, ich untersütze Sie gerne bei der Planung des Engagements."
+body = "Senden Sie mir ihre Anfrage und wie ich Sie am besten erreichen kann, ich untersütze Sie gerne bei der Planung des Engagements."
 phone = "+49 177 3415358"
 #address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "smartmiguel@web.de"
