@@ -9,7 +9,7 @@ paginate = "5"
 [params]
 fancyTitle = "Miguel Angel" # title for frontpage, may include image
 copyright = "Daniel Smart Rojas"
-description = 'El Mariachi<br />Mexikanische und Lateinamerikikanische <br />in Deutschland.'
+description = 'El Mariachi<br />Mexikanische und Lateinamerikikanische Musik <br />in Deutschland.'
 startbuttonText = "Buchen Sie heute"
 startbuttonLink = "#contact"
 body_is_markdown = true
