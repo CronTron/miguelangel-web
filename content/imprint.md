@@ -8,7 +8,7 @@ draft = false
 
 Miguel Smart
 
-Am Rainle 5  
+XXX  
 76227 Karlsruhe
 
 ### Kontakt:
